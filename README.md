@@ -1,6 +1,6 @@
-# dnotitia NIAH
+# Dnotitia NIAH
 
-dnotitia NIAH is a framework for testing the long-text understanding capabilities of large language models. It tests
+Dnotitia NIAH is a framework for testing the long-text understanding capabilities of large language models. It tests
 whether models can accurately retrieve and understand specific information by inserting "needles" (key information) into long texts.
 
 ## Installation
