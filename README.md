@@ -180,6 +180,17 @@ As shown in the visualization above, the Qwen3 30B A3B model struggled with the 
 
 ![](PaulGrahamEssays_kimchi_ingredients_qwen_qwen3-30b-a3b-thinking-2507_heatmap.png)
 
+# Citation
+```bibtex
+@misc{sangpark2025dnotitianiah,
+  author = {Sang Park and Jemin Kim and Jungyup Lee and SeungJae Lee},
+  title = {Dnotitia NIAH: Enhanced multi-needle retrieval testing framework for evaluating LLM long-context understanding capabilities},
+  year = {2025},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/dnotitia/dnotitia-NIAH}}
+}
+```
 
 # References
 
