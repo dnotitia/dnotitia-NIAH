@@ -21,7 +21,7 @@ class OpenAI(ModelProvider):
         tokenizer: A tokenizer instance for encoding and decoding text to and from token representations.
     """
 
-    DEFAULT_MODEL_KWARGS: dict = dict(max_tokens=2048,
+    DEFAULT_MODEL_KWARGS: dict = dict(max_tokens=4096,
                                       temperature=0)
 
     def __init__(self,
