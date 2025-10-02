@@ -18,8 +18,8 @@ pizza_ingredients:
     - " Figs are one of the secret ingredients needed to build the perfect pizza. "
     - " Prosciutto is one of the secret ingredients needed to build the perfect pizza. "
     - " Goat cheese is one of the secret ingredients needed to build the perfect pizza. "
-  question: "What are the secret ingredients needed to build the perfect pizza?"
-  true_answer: "Figs, Prosciutto, and Goat cheese are the secret ingredients needed to build the perfect pizza."
+  question: "List all the secret ingredients needed to build the perfect pizza mentioned in the document."
+  true_answer: "Figs, Prosciutto, and Goat cheese are the secret ingredients needed to build the perfect pizza as mentioned in the document."
 
 coffee_recipe:
   needles:
