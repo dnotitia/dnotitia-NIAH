@@ -10,58 +10,19 @@ models:
     max_context: 16000
 
   # H100 GPU
-  dnotitia/DNA-2.0-4B:
+  dnotitia/DNA-2.0-0.6B:
     api_key: LOCAL_API_KEY
     base_url: LOCAL_API_BASE
-    max_context: 131000
+    max_context: 27000
 
-  dnotitia/DNA-2.0-30B-A3B:
+  HuggingFaceTB/SmolLM2-1.7B-Instruct:
     api_key: LOCAL_API_KEY
     base_url: LOCAL_API_BASE
-    max_context: 131000
+    max_context: 7680
+    max_tokens: 512
 
-  Qwen/Qwen3-30B-A3B:
+  HuggingFaceTB/SmolLM3-3B:
     api_key: LOCAL_API_KEY
     base_url: LOCAL_API_BASE
-    max_context: 131000
-
-  Qwen/Qwen3-30B-A3B-Instruct-2507:
-    api_key: LOCAL_API_KEY
-    base_url: LOCAL_API_BASE
-    max_context: 131000
-
-  Qwen/Qwen3-4B:
-    api_key: LOCAL_API_KEY
-    base_url: LOCAL_API_BASE
-    max_context: 131000
-  
-  Qwen3-4B-SFT:
-    api_key: LOCAL_API_KEY
-    base_url: LOCAL_API_BASE
-    max_context: 131000
-
-  Qwen/Qwen3-4B-Instruct-2507:
-    api_key: LOCAL_API_KEY
-    base_url: LOCAL_API_BASE
-    max_context: 131000
-
-  Qwen/Qwen3-4B-Thinking-2507:
-    api_key: LOCAL_API_KEY
-    base_url: LOCAL_API_BASE
-    max_context: 131000
-
-  # OpenRouter
-  qwen/qwen3-30b-a3b:
-    api_key: OPENROUTER_API_KEY
-    base_url: OPENROUTER_API_BASE
-    max_context: 131000
-
-  qwen/qwen3-30b-a3b-instruct-2507:
-    api_key: OPENROUTER_API_KEY
-    base_url: OPENROUTER_API_BASE
-    max_context: 131000
-    
-  qwen/qwen3-30b-a3b-thinking-2507:
-    api_key: OPENROUTER_API_KEY
-    base_url: OPENROUTER_API_BASE
-    max_context: 131000
+    max_context: 27000
+    max_tokens: 1024
