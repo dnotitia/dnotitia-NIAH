@@ -176,7 +176,7 @@ Below is an example heat map visualization generated for the [Qwen3 30B A3B](htt
 
 ![](PaulGrahamEssays_kimchi_ingredients_qwen_qwen3-30b-a3b_heatmap.png)
 
-As shown in the visualization above, the Qwen3 30B A3B model struggled with the NIAH test, particularly in long context scenarios. In contrast, the [Qwen3 30B A3B Thinking 2507](https://huggingface.co/Qwen/Qwen3-30B-A3B-Thinking-2507) model demonstrates significantly better performance:
+As shown in the visualization above, the Qwen3 30B A3B model struggled with the NIAH test, particularly in long context scenarios. Heatmaps showed severe accuracy degradation toward later context positions, with red and yellow zones marking failure regions. The x-axis represents the context length, and the y-axis indicates the relative position(%) of the hidden answer. In contrast, the [Qwen3 30B A3B Thinking 2507](https://huggingface.co/Qwen/Qwen3-30B-A3B-Thinking-2507) model demonstrates significantly better performance:
 
 ![](PaulGrahamEssays_kimchi_ingredients_qwen_qwen3-30b-a3b-thinking-2507_heatmap.png)
 
